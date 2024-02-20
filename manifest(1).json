@@ -1,0 +1,682 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@type": "sc:Manifest",
+	"@id": "https://api.jsonstorage.net/v1/json/aa348f87-add1-49fa-b374-e97fb5bfb43b/169ab5e3-d597-4589-aecf-027b1d00a49d",
+	"label": "OCN 1422301020 Before Treatment",
+	"metadata": [
+		{
+			"label": "Coverage",
+			"value": "Paris"
+		},
+		{
+			"label": "Coverage-Spatial",
+			"value": "18.1 x 11.1 cm"
+		},
+		{
+			"label": "Coverage-Temporal",
+			"value": "19th century"
+		},
+		{
+			"label": "Date",
+			"value": "1854"
+		},
+		{
+			"label": "Description",
+			"value": "Binding before Tretment. Rib Grain cloth. Publisher's binding?"
+		},
+		{
+			"label": "Format",
+			"value": "jpg"
+		},
+		{
+			"label": "Provenance",
+			"value": "Carmelite Monastery, Varroville"
+		},
+		{
+			"label": "Publisher",
+			"value": "Jacques Lecoffre"
+		},
+		{
+			"label": "Relation-Is Part Of",
+			"value": "L'Imitation de Jésus-Christ Méditée"
+		},
+		{
+			"label": "Rights",
+			"value": "Public Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+		},
+		{
+			"label": "Subject",
+			"value": "book cloth (textile material)"
+		},
+		{
+			"label": "Title",
+			"value": "Binding for L'Imitation de Jésus-Christ Méditée"
+		},
+		{
+			"label": "Type",
+			"value": "image"
+		},
+		{
+			"label": "Repository",
+			"value": "University of Divinity Digital Collections"
+		},
+		{
+			"label": "Source",
+			"value": "<span>From: <a href=\"https://divinity.contentdm.oclc.org/digital/collection/p20081coll32/id/0\">Binding for L'Imitation de Jésus-Christ Méditée</a></span>"
+		}
+	],
+	"attribution": [
+		"",
+		"Public Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+	],
+	"seeAlso": {
+		"@id": "https://cdm20081.contentdm.oclc.org/oai/oai.php?verb=GetRecord&identifier=oai:cdm20081.contentdm.oclc.org:p20081coll32/0&metadataPrefix=oai_qdc",
+		"format": "application/xml",
+		"profile": "http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+	},
+	"within": "https://cdm20081.contentdm.oclc.org/iiif/p20081coll32/manifest.json",
+	"sequences": [
+		{
+			"@id": "https://cdm20081.contentdm.oclc.org/iiif/p20081coll32:0/sequence/s0",
+			"@type": "sc:Sequence",
+			"label": "Binding for L'Imitation de Jésus-Christ Méditée",
+			"canvases": [
+				{
+					"@id": "https://cdm20081.contentdm.oclc.org/iiif/p20081coll32:0/canvas/c0",
+					"@type": "sc:Canvas",
+					"label": "Binding for L'Imitation de Jésus-Christ Méditée",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://06e7e61f-12db-4ab1-9c18-6f99bf76912c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:0/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:0",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 100000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 11977,
+								"width": 17966
+							},
+							"on": "https://cdm20081.contentdm.oclc.org/iiif/p20081coll32:0/canvas/c0"
+						}
+					],
+					"width": 17966,
+					"height": 11977,
+					"metadata": [
+						{
+							"label": "Title",
+							"value": "Rib grain cloth binding"
+						},
+						{
+							"label": "Cultural Context",
+							"value": "French"
+						},
+						{
+							"label": "Date",
+							"value": "1854"
+						},
+						{
+							"label": "Description",
+							"value": "This is a before treatment image of a 19th century rib grain cloth binding"
+						},
+						{
+							"label": "Location",
+							"value": "Carmelite Library (Middle Park, VIctoria) RB 1854"
+						},
+						{
+							"label": "Material",
+							"value": "textile"
+						},
+						{
+							"label": "Measurements",
+							"value": "18.1 x 11.1 cm"
+						},
+						{
+							"label": "Relation",
+							"value": "From L'Imitation de Jésus-Christ Méditée"
+						},
+						{
+							"label": "Rights",
+							"value": "Public Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+						},
+						{
+							"label": "Subject",
+							"value": "book cloth (textile material)"
+						},
+						{
+							"label": "Subject",
+							"value": "rib grain"
+						},
+						{
+							"label": "Technique",
+							"value": "bookbinding and bookbinding processes and techniques"
+						},
+						{
+							"label": "Work Type",
+							"value": "bindings (gathered matter components)"
+						}
+					]
+				},
+				{
+					"@id": "http://e861646a-53bc-4faa-a7a8-d09420cd1001",
+					"@type": "sc:Canvas",
+					"label": "Moderate yellow endpapers",
+					"height": 11977,
+					"width": 17966,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bfae7cf4-3fd2-40ae-a6c5-ecf0270d4d3b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:1",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 100000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 11977,
+								"width": 17966
+							},
+							"on": "http://e861646a-53bc-4faa-a7a8-d09420cd1001"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Title",
+							"value": "Moderate yellow endpapers"
+						},
+						{
+							"label": "Cultural Context",
+							"value": "French"
+						},
+						{
+							"label": "Date",
+							"value": "1854"
+						},
+						{
+							"label": "Description",
+							"value": "Before treatment image of moderate yellow endpapers with some staining and dirt accretions"
+						},
+						{
+							"label": "Location",
+							"value": "Carmelite Library (Middle Park, VIctoria) RB 1854"
+						},
+						{
+							"label": "Material",
+							"value": "wove paper"
+						},
+						{
+							"label": "Measurements",
+							"value": "18.1 x 11.1 cm"
+						},
+						{
+							"label": "Relation",
+							"value": "Part of \t\nL'Imitation de Jésus-Christ Méditée"
+						},
+						{
+							"label": "Rights",
+							"value": "Public Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+						},
+						{
+							"label": "Subject",
+							"value": "endpapers"
+						},
+						{
+							"label": "Technique",
+							"value": "papermaking"
+						}
+					]
+				},
+				{
+					"@id": "http://afa72d30-9b03-48ff-8d4d-bd96793944c8",
+					"@type": "sc:Canvas",
+					"label": "\t\nGold tooled spine",
+					"height": 11977,
+					"width": 17966,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://78701f30-36f2-493c-ac3e-95f1a2ac1695",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 100000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 11977,
+								"width": 17966
+							},
+							"on": "http://afa72d30-9b03-48ff-8d4d-bd96793944c8"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Title",
+							"value": "\t\nGold tooled spine"
+						},
+						{
+							"label": "Cultural Context",
+							"value": "French"
+						},
+						{
+							"label": "Date",
+							"value": "1854"
+						},
+						{
+							"label": "Description",
+							"value": "Before treatment image of gold tooled spine. Delaminated at edges"
+						},
+						{
+							"label": "Location",
+							"value": "Carmelite Library (Middle Park, VIctoria) RB 1854"
+						},
+						{
+							"label": "Material",
+							"value": "gold leaf on cloth"
+						},
+						{
+							"label": "Support",
+							"value": "textile"
+						},
+						{
+							"label": "Measurements",
+							"value": "18 x 3.5 cm"
+						},
+						{
+							"label": "Relation",
+							"value": "Part of \t\nL'Imitation de Jésus-Christ Méditée"
+						},
+						{
+							"label": "Rights",
+							"value": "\t\nPublic Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+						},
+						{
+							"label": "Technique",
+							"value": "gold tooling"
+						},
+						{
+							"label": "Subject",
+							"value": "\tspines (book components)"
+						}
+					]
+				},
+				{
+					"@id": "http://189470a7-1f0e-4393-81c3-b4857569d131",
+					"@type": "sc:Canvas",
+					"label": "Title page for L'Imitation de Jésus-Christ Méditée",
+					"height": 11977,
+					"width": 17966,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://53add1f8-04df-4a84-8376-4df9f5a625e8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:3/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:3",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 100000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 11977,
+								"width": 17966
+							},
+							"on": "http://189470a7-1f0e-4393-81c3-b4857569d131"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Title",
+							"value": "Title page for L'Imitation de Jésus-Christ Méditée"
+						},
+						{
+							"label": "Cultural Context",
+							"value": "French"
+						},
+						{
+							"label": "Date",
+							"value": "1854"
+						},
+						{
+							"label": "Description",
+							"value": "Nineteeth century wove paper, with staining consistent with foxing"
+						},
+						{
+							"label": "Location",
+							"value": "Carmelite Library (Middle Park, VIctoria) RB 1854"
+						},
+						{
+							"label": "Material",
+							"value": "ink on wove paper"
+						},
+						{
+							"label": "Measurements",
+							"value": "18.1 x 11.1 cm"
+						},
+						{
+							"label": "Relation",
+							"value": "Part of \t\nL'Imitation de Jésus-Christ Méditée"
+						},
+						{
+							"label": "Rights",
+							"value": "\t\nPublic Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+						},
+						{
+							"label": "Subject",
+							"value": "wove paper"
+						},
+						{
+							"label": "Technique",
+							"value": "papermaking"
+						}
+					]
+				},
+				{
+					"@id": "http://b1e41713-38a3-4da6-bef1-c6a3b088ec7f",
+					"@type": "sc:Canvas",
+					"label": "\t\nTitle page for L'Imitation de Jésus-Christ Méditée [UV Light]",
+					"height": 3262,
+					"width": 2031,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8396d560-871d-46a6-9ca1-a223b184935f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:4/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cdm20081.contentdm.oclc.org/iiif/2/p20081coll32:4",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 13250244,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3262,
+								"width": 2031
+							},
+							"on": "http://b1e41713-38a3-4da6-bef1-c6a3b088ec7f"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Title",
+							"value": "\t\nTitle page for L'Imitation de Jésus-Christ Méditée [UV Light]"
+						},
+						{
+							"label": "Cultural Context",
+							"value": "French"
+						},
+						{
+							"label": "Date",
+							"value": "1854"
+						},
+						{
+							"label": "Description",
+							"value": "Image before treatment showing 19th century wove paper under UV Light. Fluorescence consistent with bio deterioration of paper and/or foxing"
+						},
+						{
+							"label": "Location",
+							"value": "Carmelite Library (Middle Park, VIctoria) RB 1854"
+						},
+						{
+							"label": "Material",
+							"value": "wove paper"
+						},
+						{
+							"label": "Measurements",
+							"value": "18.1 x 11.1 cm"
+						},
+						{
+							"label": "Relation",
+							"value": "Part of \t\nL'Imitation de Jésus-Christ Méditée"
+						},
+						{
+							"label": "Rights",
+							"value": "\t\nPublic Domain Mark 1.0. No Copyright. This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights"
+						},
+						{
+							"label": "Technique",
+							"value": "papermaking"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [
+		{
+			"@id": "https://cdm20081.contentdm.oclc.org/iiif/p20081coll32:0/range/r0",
+			"@type": "sc:Range",
+			"label": "Conservation Data",
+			"ranges": [],
+			"canvases": [
+				"https://cdm20081.contentdm.oclc.org/iiif/p20081coll32:0/canvas/c0"
+			]
+		}
+	],
+	"thumbnail": {
+		"@id": "http://189470a7-1f0e-4393-81c3-b4857569d131"
+	},
+	"logo": "https://ud-library-file-storage.sgp1.cdn.digitaloceanspaces.com/IIIF/1422301020/Carmelite%20Library%20Logo.png",
+	"description": {
+		"@value": "Before Conservation Treatment Data"
+	}
+}
